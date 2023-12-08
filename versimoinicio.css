@@ -1,0 +1,168 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.capa{
+     background-image: url(Inicio.png);
+    width: 100vw;
+    height: 100vh;
+        display: flex;
+    justify-content: space-around;
+        align-items: center;
+        box-sizing: border-box;
+    }
+#frase{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    /* mini texto no começo */
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 36px; /* 100% */  
+    width: 484px;
+}
+.versimo{
+    width: 685px;
+    height: 204.61px;
+    flex-shrink: 0;
+    margin: 8px;
+    
+}
+.info ul {
+    background-color: #00CFC8;
+    display: flex;
+    gap: 328px;
+    list-style: none;
+    text-align: center;
+}
+
+
+
+
+header {
+    display: flex;
+    background-color: #00CFC8;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 30px;
+}
+
+
+
+.logo img {
+    width: 150px;
+}
+.menu{
+    background-color: #00CFC8;
+    display: flex;
+}
+.logomenu img{
+    width: 150px;
+   height: 40.18px;
+  
+}
+.logo:hover {
+    border: 1px solid #009994;
+}
+.infos ul{
+    list-style: none;
+    display: flex;
+    gap: 328px;
+}
+.butao{
+    color: #4D023D;
+    background-color: #00CFC8;
+    border: none;
+    font-family: poppins;
+    font-size: 17px;
+    font-weight: 600;
+    transition-duration: 0.4ms;
+}
+.butao:hover{
+    color: #B3058F;
+}
+.frase{
+    font-family: Poppins;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.popup-caixa {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+
+}
+
+.popup-conteudo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+    background-image: url('fund2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 600px;
+
+
+}
+
+.fechar {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.caixa-texto{
+    padding: 16px;
+}
+.textinho{
+    margin: 0;
+    padding: 0;
+}
+.caixa-texto h3{
+color: #00CFC8;color: var(--secundria-00, #00CFC8);
+}
+.caixa-texto h1{
+color: #FFFFFF;
+}
+button{
+width: 200px;
+height: 50px;
+background-color: #00CFC8;
+color: #FFFFFF;
+border: none;
+border-radius:  15px;
+font-size: 20px;
+
+}
+.segundo-texto {
+margin: 100px
+}
+#buttontexto{
+    padding: 10px 20px;
+}
+#textoh1{
+padding: 10px;
+}
+
+
+
+
+

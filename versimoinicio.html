@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>versimo</title>
+    <link rel="stylesheet" href="versimoinicio.css">
+</head>
+
+<body>
+    <header>
+        <div class="menu">
+            <div class="logomenu">
+                <img src="logo da versimo.png" alt="logo">
+            </div>
+            <div class="infos">
+                <ul>
+                    <li> <a href="https://media.tenor.com/m_B50ZygJjMAAAAC/gato-dan%C3%A7ando.gif"><button
+                                class="butao">Sobre nós</button></a></li>
+                    <li><a href="https://media.tenor.com/ZuXnTDxIbjQAAAAC/shocked-shocked-cat.gif"><button
+                                class="butao">Produtos</button></a></li>
+                    <li><a href="https://media.tenor.com/5AeBrrSXk34AAAAd/gato.gif"><button
+                                class="butao">Contato</button></a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section class="capa">
+        <img src="logo da versimo.png" class="versimo" alt="versimo">
+        <p id="frase">Contando histórias que inspiram cada vez mais leitores!!</p>
+    </section>
+         <!-- Pop-up Container -->
+    <div class="popup-caixa" id="popup">
+        <div class="popup-conteudo">
+            <span class="fechar" onclick="fecharPopup()">&times;</span>
+            <div class="caixa-texto">
+                <h1 class="textinho"> Bem-Vindo à Versímo</h1>
+                <h3 class="textinho">Se cadastre agora</h3>
+            </div>
+            <div class="segundo-texto">
+            <h2 id="textoh1">E ganhe frete grátis </h2>
+            <button id="buttontexto">cadastre-se </button>
+            </div>
+        </div>
+    </div>
+     <script>
+        // Função para exibir o popup após um determinado tempo
+        function mostrarPopup() {
+            document.getElementById('popup').style.display = 'block';
+            setTimeout(function() {
+                mostrarPopup();
+            }, 5000); // O popup será fechado automaticamente após 5 segundos (5000 milissegundos)
+        }
+
+        // Função para fechar o popup
+        function fecharPopup() {
+            document.getElementById('popup').style.display = 'none';
+        }
+
+        // Chama a função mostrarPopup
+        window.onload = mostrarPopup;
+    </script>
