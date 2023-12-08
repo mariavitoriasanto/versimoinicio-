@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .capa{
-     background-image: url(Inicio.png);
+     background-image: url(imagens/fund2.png);
     width: 100vw;
     height: 100vh;
         display: flex;
@@ -113,7 +113,7 @@ body {
     background: white;
     border-radius: 15px;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
-    background-image: url('fund2.png');
+    background-image: url('imagens/popupimg.png');
     background-size: cover;
     background-repeat: no-repeat;
     height: 400px;
